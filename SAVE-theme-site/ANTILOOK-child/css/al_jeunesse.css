@@ -1,0 +1,278 @@
+/* ==================== */
+/* ACCUEIL JEUNESSE
+/* ==================== */
+.marge-menu-periscolaire {
+	margin: 0 !important;
+	padding: 0 1em 0 0!important;
+}
+.marge-menu-periscolaire:last-child {
+	padding: 0 0 0 !important;
+}
+
+.marge-menu-mercredi{
+	margin: 0 !important;
+	padding: 0 0.5em 0 0.5em !important;
+}
+.marge-menu-vacance{
+    padding: 0 0 0 1em !important;
+}
+/* BLOC PORTAIL FAMILLE */
+.acces-portail-famille {
+	position: absolute;
+	width: 100%;
+	margin: auto 0;
+	text-align: center;
+	bottom: 1.2em;
+	z-index: 10;
+}
+.titre-portail-famille {
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 0.3em;
+}
+
+/* BLOC EVENEMENT JEUNESSE */
+.evenement-jeunesse {
+	height: 300px;
+	position: relative;
+}
+.jeunesse-texte-dessus-bouton {
+	color: #fff;
+	font-size: 1em;
+    margin-bottom: 0.6em;
+	text-shadow: 0px 1px 6px #000000;
+}
+
+
+/* ==================== */
+/* CAROUSEL
+/* ==================== */
+.carousel-content-jeunesse {
+	height: 300px;
+	padding: 0 !important;
+}
+
+.evenement-jeunesse-contenu {
+	position: fixed;
+	bottom: -275px;
+	padding: 0 1.5em 0 1.5em;
+}
+.img-evenement-jeunesse {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+.menu-ecoles {
+	border-radius: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+	transform: translate3d(0px, 32px, 0px) !important;
+	top: 12px !important;
+}
+.dropdown:hover>.menu-ecoles {
+    display: block;
+    webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+}
+
+.titre-ecoles-periscolaire-menu {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #003e7e 0%, #00aeef 100%);
+	background: linear-gradient(to right, var(--couleur-principale) 0%, var(--couleur-secondaire) 100%);
+	/*
+	background: #ec008c;
+	background: var(--couleur-rose);
+	*/
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.titre-ecoles-mercredis-menu {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #003e7e 0%, #00aeef 100%);
+	background: linear-gradient(to right, var(--couleur-principale) 0%, var(--couleur-secondaire) 100%);
+	/*
+	background: #ec008c;
+	background: var(--couleur-rose);
+	*/
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.titre-ecoles-vacances-menu {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #003e7e 0%, #00aeef 100%);
+	background: linear-gradient(to right, var(--couleur-principale) 0%, var(--couleur-secondaire) 100%);
+	/*
+	background: #ec008c;
+	background: var(--couleur-rose);
+	*/
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.adresse-ecole {
+	font-style: italic;
+	margin-top: -20px;
+	margin-bottom: 20px; 
+}
+.onglets-ecoles {
+	margin-top: 2em;
+}
+.onglets-ecoles ul.nav li a, ul.nav li a:visited {
+	color: #000;
+}
+
+/* ==================== */
+/* TABS
+/* ==================== */
+.tabs-ecoles {
+	font-size: 1.5em;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link .tabs-ecoles {
+	background: #7f4098 !important;
+	background: var(--couleur-maternelle) !important;
+	color: #fff !important;
+}
+.tabs-evenement {
+	background: #00aeef !important;
+	background: var(--couleur-secondaire) !important;
+}
+
+/* ========================= */
+/* BOUTONS PORTAIL FAMILLE
+/* ========================= */
+/* CONNEXION */
+.btn-portail-connexion {
+	color: #fff!important;
+	border: #fff solid 2px;
+	background-color: #ec008c !important;
+	background-color: var(--couleur-rose) !important;
+    font-size: 1.3em;
+}
+.btn-portail-connexion:hover {
+	color: #fff !important;
+	border: #fff solid 2px;
+	background-color: #c40075 !important;
+	background-color: var(--bouton-rose-hover) !important;
+}
+.btn-portail-connexion:focus, .btn-portail-connexion.focus {
+	box-shadow: none;
+}
+.btn-portail-connexion:not(:disabled):not(.disabled):active, .btn-portail-connexion:not(:disabled):not(.disabled).active,
+.show > .btn-portail-connexion.dropdown-toggle {
+	border-color: #fff;
+}
+
+/* INSCRIPTION */
+.btn-portail-inscription {
+	color: #fff !important;
+	border: #fff solid 2px;
+	background-color: #f7941e !important;
+	background-color: var(--couleur-orange) !important;
+    font-size: 1.3em;
+}
+.btn-portail-inscription:hover {
+	color: #fff !important;
+	border: #fff solid 2px;
+	background-color: #cc7b16 !important;
+	background-color: var(--bouton-orange-hover) !important;
+}
+.btn-portail-inscription:focus, .btn-portail-inscription.focus {
+	box-shadow: none;
+}
+.btn-portail-inscription:not(:disabled):not(.disabled):active, .btn-portail-inscription:not(:disabled):not(.disabled).active,
+.show > .btn-portail-inscription.dropdown-toggle {
+	border-color: #fff;
+}
+
+
+/* INFORMATION */
+.btn-portail-information {
+	color: #fff!important;
+	border: #fff solid 2px;
+	background-color: #8dc63f !important;
+	background-color: var(--couleur-vert) !important;
+    font-size: 1.3em;
+}
+.btn-portail-information:hover {
+	color: #d9dadb!important;
+	border: #fff solid 2px;
+	background-color: #73a533 !important;
+	background-color: var(--bouton-vert-hover) !important;
+}
+.btn-portail-information:focus, .btn-portail-information.focus {
+	box-shadow: none;
+}
+.btn-portail-information:not(:disabled):not(.disabled):active, .btn-portail-information:not(:disabled):not(.disabled).active,
+.show > .btn-portail-information.dropdown-toggle {
+	border-color: #fff;
+}
+
+/* ========================= */
+/* BOUTONS MENU DÉROULANT
+/* ========================= */
+.btn-periscolaire-vacances {
+	background: transparent !important;
+	border: none;
+	width: 100%;
+	font-size: 1em;
+	font-weight: 700;
+	/*
+	padding: 0;
+	*/
+	margin: 0;
+    display: block;
+}
+.btn-periscolaire-vacances:hover {
+	background: transparent;
+	border: none;
+	font-size: 1em;
+	font-weight: 700;
+}
+.btn-periscolaire-vacances:focus {
+	background: transparent;
+	border: none;
+	box-shadow: none !important;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/* ==================== */
+	/*  JEUNESSE
+	/* ==================== */
+	.jeunesse-texte-dessus-bouton {
+		font-size: 0.92em;
+	}
+	.btn-portail-inscription {
+    	font-size: 0.9em !important;
+	}
+	.btn-portail-connexion {
+    	font-size: 0.9em;
+	}
+	.marge-menu-periscolaire {
+    	padding: 0 !important;
+	}
+	.marge-menu-mercredi {
+    	padding: 0 !important;
+	}
+	.marge-menu-vacance {
+    	padding: 0 !important;
+	}
+}

@@ -1,0 +1,69 @@
+/* ========================= */
+/*   CSS LOGIN 
+/* ========================= */
+
+/* -------------------------------------------- */
+/* couleur Gris logo : #58585a;
+/* couleur Doré logo : #c8b566;
+
+/* couleur gris clair du fond : #F1F1F1;
+/# couleur gris foncé : #c3c3c1;
+
+/* couleur texte gris : #404040;
+/* couleur vert moyen : #35bcb8;
+
+/* couleur du footer = #6F7072;
+/* -------------------------------------------- */
+
+body.login {
+  background-color: #003e7e;
+}
+.login h1 {
+  background-color: #fff;
+  padding-top: 8px;
+}
+.login h1 a {
+  height: 50px;
+  width: 320px;
+  background-size: auto;
+}
+.login label {
+  font-size: 12px;
+  color: #fff;
+}
+.login form {
+  background: #ec008c;
+  margin-top: 0;
+}
+.login input[type="text"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  -webkit-border-radius: 4px;
+}
+
+.login input[type="password"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  -webkit-border-radius: 4px;
+}
+
+p#nav {
+  display: none;
+}
+p#backtoblog {
+  display: none;
+}
+
+.login a {
+  color: #fff;
+}
+.login a:hover {
+  color: #fff;
+}
+
+/* SUPPRIMER LE FOND JAUNE DANS LES FORM */
+input:-webkit-autofill, input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+  -webkit-text-fill-color: #333;
+}
+

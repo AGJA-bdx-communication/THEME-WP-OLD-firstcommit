@@ -1,0 +1,27 @@
+/* ACF */
+#editor .postbox .hndle {
+	color: #003e7e !important;
+	font-size: 1.8em !important;
+}
+
+/* HAUTEUR DU CHAMP WYSIWYG ACF 
+.acf-editor-wrap iframe {
+    min-height: 120px !important;
+    height: 120px !important;
+}
+*/
+
+#adminmenu li.wp-menu-separator {
+	background-color: #444;
+	margin-top: 7px;
+}
+
+/*
+#adminmenu div.separator {
+	background-color: red;
+}
+
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle {
+	background-color: #ffc20e;
+}
+*/

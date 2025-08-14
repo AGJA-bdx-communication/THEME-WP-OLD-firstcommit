@@ -1,0 +1,358 @@
+/* ==================== */
+/* ACCUEIL SECTIONS
+/* ==================== */
+
+/* MENU SECTIONS */
+.menu-sections {
+	border-radius: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+	transform: translate3d(0px, 32px, 0px) !important;
+	/*
+	top:0 !important;
+	*/
+    top: 12px!important;
+}
+.dropdown:hover>.menu-sections {
+    display: block;
+    webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+
+    /*
+    webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.5);
+    */
+}
+
+/* BLOCS SECTIONS */
+.bloc-section {
+	margin-left: 25px !important;
+}
+.marge-left{
+	margin: 0 !important;
+	padding: 0 0 0 15px;
+}
+.marge-center{
+	margin: 0 !important;
+	padding: 0px !important;
+}
+.marge-right{
+	margin: 0 !important;
+	padding: 0 15px 0 0 !important;
+}
+.image-section {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+.left-pos {
+	-webkit-animation-name:fadeInLeft;
+	animation-name:fadeInLeft;
+}
+.bloc-titre-sports-de-competition {
+	position: relative;
+	background: #000;
+	opacity: 0;
+	top: 250px;
+	padding: 1em;
+	border-left: 25px solid #f7941e;
+	border-left: 25px solid var(--couleur-competition);
+	float: left;
+    left: -600px;
+    transition: all 0.7s ease-in-out;
+    -webkit-animation: slide 0.7s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: ease-in-out slide 0.7s forwards;
+    animation-delay: 0.5s;
+}
+.bloc-titre-sports-de-detente {
+	position: relative;
+	background: #000;
+	top: 250px;
+	padding: 1em;
+	border-left: 25px solid #ffde17;
+	border-left: 25px solid var(--couleur-detente);
+	float: left;
+    left: -600px;
+    transition: all 0.7s ease-in-out;
+    -webkit-animation: slide 0.7s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: ease-in-out slide 0.7s forwards;
+    animation-delay: 0.5s;
+}
+.bloc-titre-activites-socio-culturelles {
+	position: relative;
+	background: #000;
+	top: 250px;
+	padding: 1em;
+	border-left: 25px solid #39b54a;
+	border-left: 25px solid var(--couleur-socio);
+	float: left;
+    left: -600px;
+    transition: all 0.7s ease-in-out;
+    -webkit-animation: slide 0.7s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: ease-in-out slide 0.7s forwards;
+    animation-delay: 0.5s;
+}
+.bloc-titre-bien-etre {
+	position: relative;
+	background: #000;
+	top: 250px;
+	padding: 1em;
+	border-left: 25px solid #2187fb;
+	border-left: 25px solid var(--couleur-bien-etre);
+	float: left;
+    left: -600px;
+    transition: all 0.7s ease-in-out;
+    -webkit-animation: slide 0.7s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: ease-in-out slide 0.7s forwards;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+    	left: 0;
+    	opacity: 1;
+    }
+}
+
+@keyframes slide {
+    100% {
+    	left: 0;
+    	opacity: 1;
+    }
+}
+
+/* NOUVEAUTÉ */
+.nouveau-grille {
+	background: #ec008c;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.25em;
+    color: #fff;
+    text-align: center;
+}
+.bloc-titre-nouveau {
+	position: absolute;
+	background: #ec008c;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 1.5em;
+	padding: 0.25em;
+	margin-top: 20px;
+	color: #fff;
+	border: solid #fff 2px;
+	border-radius: 5px;
+}
+.bloc-titre-nouveau-centre {
+	background: #ec008c;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.25em;
+    margin-top: 20px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+}
+.nouveau-centre {
+	margin: 0 auto;
+    display: flex;
+}
+
+/* NOUVEAUTÉ RUBAN */
+.ribbon {
+	position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    text-align: right;
+}
+.ribbon span {
+	font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 27px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 180px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#EC008C 0%, #ec008c 100%);
+    position: absolute;
+    top: 32px;
+    left: -45px;
+}
+
+
+
+.texte-titre-section {
+	color: #fff;
+	padding: 0;
+	margin-top: 0!important;
+	margin-bottom: 0;
+    text-align: left !important;
+}
+.texte-a-partir-de {
+	color: #fff;
+}
+
+.titre-section-competition-menu {
+	width: 100%;
+	background: #f7941e;
+	background: var(--couleur-competition);
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+}
+.titre-section-detente-menu {
+	width: 100%;
+	background: #ffde17;
+	background: var(--couleur-detente);
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+}
+.titre-section-socio-menu {
+	width: 100%;
+	background: #39b54a;
+	background: var(--couleur-socio);
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+}
+.titre-section-menu {
+	width: 100%;
+	/*
+	background: var(--couleur-bouton-gris);
+	*/
+	background: linear-gradient(to right, #003e7e 0%, #00aeef 100%);
+	background: linear-gradient(to right, var(--couleur-principale) 0%, var(--couleur-secondaire) 100%);
+	padding: 0.45em 0 0.45em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+}
+.titre-section-menu-actif {
+	width: 100%;
+	padding: 0.45em 0 0.45em 0;
+	background: #ec008c;
+	padding: 0.45em 0 0.45em 0;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;}
+
+.titre-entrainement {
+	color: #f29400;
+	font-weight: bolder;
+	font-size: 1.4em;
+	text-align: center;
+}
+.date-entrainement {
+	font-size: 1.2em;
+	text-align: center;
+}
+.section-tarif {
+	padding: 0 0.25em 0 0.25em;
+	background-color: #ffc20e;
+	background-color: var(--couleur-jaune);
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
+.section-tarif p {
+	margin: 0;
+}
+.contenu-bloc-tarif p {
+	margin: 0.2em;
+}
+
+/* RUBAN NOUVEAU */
+.ruban {
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	background: #ec008c;
+	background: --var(--couleur-rose);
+}
+
+/* SECTION COMPLÈTE */
+.section-complete {
+    color: #ec008c;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: -10px;
+	text-decoration: blink;
+	animation: blink 1s linear infinite;
+}
+.section-complete-grille {
+    color: #ec008c;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+	text-decoration: blink;
+	animation: blink 1s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+	from {opacity: 1.0;}
+	to {opacity: 0.0;}
+}
+
+@keyframes blink {
+	from {opacity: 1.0;}
+	to {opacity: 0.0;}
+}
+
+
+/* ==================== */
+/*  CAROUSEL SECTION
+/* ==================== */
+
+#carousel-section {
+   	transform: scaleY(1);
+ 	transition:transform 1s ease;
+
+	border: solid 1px #c5ced6;
+    border: solid 1px var(--couleur-cadre-actu);
+    margin-bottom: 1rem;
+    border-radius: 6px;
+
+}
+#carousel-section .carousel-item .titre-actu-section {
+	font-size: 1.5em;
+	color: #003e7e;
+	/*
+	-webkit-animation-name:fadeInLeft;
+	animation-name:fadeInLeft;
+	*/
+}
+.carousel-control-next, .carousel-control-prev {
+	height: 40px;
+	width: 65px !important;
+	padding: 6px;
+	top: 40% !important;
+	bottom: auto;
+	transform: translateY(-50%);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+}
+

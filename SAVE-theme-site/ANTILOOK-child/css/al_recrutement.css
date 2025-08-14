@@ -1,0 +1,31 @@
+/* ========================= */
+/* RECRUTEMENT
+/* ========================= */
+.bloc-recrutement {
+	border-radius: 5px;
+	border: solid 2px #d3dde8;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+}
+.titre-recrutement {
+	border-bottom: solid 2px #d3dde8;
+	font-size: 1.2em;
+	color: #003e7e;
+	padding: 0.2em 0.5em 0.2em;
+	background-color: #e9eff6;
+}
+.contenu-recrutement {
+	padding: 0.5em 0.5em 0.25em 0.5em;
+}
+.titre-poste {
+	color: #ec008c;
+}
+.paragraphe-recrutement {
+	margin-top: 0.5em;
+}
+.paragraphe-recrutement p {
+	margin-bottom: 0.3em;
+}
+.form-recrutement {
+	padding-top: 0.5em;
+}

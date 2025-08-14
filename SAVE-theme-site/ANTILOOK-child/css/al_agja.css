@@ -1,0 +1,81 @@
+.card {
+	margin: 0 !important;
+	margin-bottom: 0.75em !important;
+}
+.card-columns {
+	@include media-breakpoint-only(lg) {
+		column-count: 4;
+	}
+	@include media-breakpoint-only(xl) {
+		column-count: 5;
+	}
+}
+.card-evenement {
+	margin: 0 !important;
+}
+.card-img-top {
+	padding: 0 !important;
+}
+.mois-evenement {
+	/*
+	color: #fff;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	-moz-box-shadow: -6px 10px 10px 0px #dedede;
+	-webkit-box-shadow: -6px 10px 10px 0px #dedede;
+	-o-box-shadow: -6px 10px 10px 0px #dedede;
+	box-shadow: -6px 10px 10px 0px #dedede;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#dedede, Direction=224, Strength=10);	
+	background: linear-gradient(90deg, #dedede 0%, var(--blanc) 100%);
+	*/
+	border-bottom: solid 3px #ec008c;
+	border-bottom: solid 3px var(--couleur-rose);
+	padding: 0.2em 0 0.2em 0 !important;
+	font-size: 1.4em;
+	margin: 1em 0 1em 0;	
+}
+.titre-mois {
+	color: #ec008c;
+	color: var(--couleur-rose);
+	display: inline;
+	font-weight: bold;
+}
+.text-evenement {
+	font-size: 0.9em;
+	margin: 1em 0.5em 1em 0.5em;	
+}
+.date-evenement {
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: center;
+	/*
+	color: #7f4098;
+	background: #ededed;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	*/
+}
+.bt-evenement {
+	text-align: center;
+	margin-bottom: 0.6em;
+}
+.prix-evenement {
+	padding: 0.3em;
+	width: auto;
+	color: #000;
+	border-radius: 5px;
+	display: inline;
+	border: solid 2px #dedede;
+	display: inline;
+}
+
+.entete {
+	overflow: auto;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
+
+#content .gallery-item {
+    display: inline-block;
+    margin: 5px;
+}
